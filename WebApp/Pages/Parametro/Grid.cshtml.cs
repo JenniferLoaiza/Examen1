@@ -55,7 +55,7 @@ namespace WebApp.Pages.Parametro
                     throw new Exception(result.MsgError);
                 }
 
-                TempData["Msg"] = "El parametro se elimino correctamente";
+                TempData["Msg"] = "El parametro ha sido eliminado exitosamente ";
 
                 return Redirect("Grid");
             }
